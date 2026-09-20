@@ -5,17 +5,23 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>THE COMPLETE PRINTING SOLUTIONS</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Perfect Prints | The Complete Printing Solutions</title>
+  <meta
+    content="Perfect Prints - Premier destination for high-quality printing, visiting cards, wedding cards, bill books, letterheads, t-shirts, and commercial printing in Mumbai since 1997."
+    name="description">
+  <meta
+    content="printing mumbai, perfect prints, visiting cards, wedding cards, bill books, letterheads, banner printing, t-shirt printing, digital offset printing"
+    name="keywords">
 
   <!-- Favicons -->
   <link href="assets/PPLogo.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/PPLogo.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Outfit, Plus Jakarta Sans & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@400;600;700&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -29,83 +35,140 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- Hello -->
-
-  <!-- =======================================================
-  * Template Name: PP
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
+  <!-- Top Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-lg-between">
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">PP<span>.</span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <div class="logo-wrapper d-flex align-items-center">
+        <a href="index.html" class="logo-link d-flex align-items-center">
+          <img src="assets/PPLogo.png" alt="Perfect Prints Logo" class="brand-logo me-2">
+          <span class="logo-text">PP<span class="logo-dot">.</span></span>
+        </a>
+      </div>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Process</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <a href="#contact" class="get-started-btn scrollto">
+        <span>Get a Quote</span>
+        <i class="ri-arrow-right-up-line ms-1"></i>
+      </a>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
+    <!-- Ambient glowing backgrounds & canvas particles -->
+    <div class="hero-glow-orb hero-glow-1"></div>
+    <div class="hero-glow-orb hero-glow-2"></div>
+    <div class="hero-glow-orb hero-glow-3"></div>
+    <canvas id="hero-particles-canvas"></canvas>
 
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1> <span>.</span> Perfect Prints <span>.</span></h1>
-          <h2> T h e C o m p l e t e P i n t i n g S o l u t u i o n s</h2>
+    <div class="container hero-content" data-aos="fade-up">
+
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-9 col-lg-10">
+          <div class="hero-badge-container mb-3" data-aos="zoom-in" data-aos-delay="100">
+            <span class="hero-pill-badge">
+              <i class="ri-sparkling-fill badge-icon"></i>
+              <span>Master Craftsmen in Print &bull; Est. 1997</span>
+            </span>
+          </div>
+
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+            Perfect <span class="gold-gradient-text">Prints</span>
+          </h1>
+
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
+            The Complete Printing Solutions
+          </p>
+
+          <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+            Elevate your brand with precision digital & offset printing, bespoke corporate stationery, custom packaging,
+            luxury wedding invitations, and promotional merchandise crafted with unmatched quality.
+          </p>
+
+          <div class="hero-cta-group mt-4 d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up"
+            data-aos-delay="500">
+            <a href="#services" class="btn-premium-primary scrollto">
+              <span>Explore Services</span>
+              <i class="ri-arrow-right-line ms-2"></i>
+            </a>
+            <a href="#contact" class="btn-premium-glass scrollto">
+              <span>Request Custom Quote</span>
+              <i class="ri-chat-3-line ms-2"></i>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line"></i>
-            <h3><a href="">WEDDING CARDS</a></h3>
+      <!-- Quick Feature Cards with 3D Hover & Glow -->
+      <div class="row gy-4 mt-5 justify-content-center hero-feature-row" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-icon">
+              <i class="ri-vip-crown-line"></i>
+            </div>
+            <h3><a href="#services">Wedding Cards</a></h3>
+            <span class="hero-card-tag">Luxury Foiling</span>
           </div>
         </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line"></i>
-            <h3><a href="">VISITING CARDS</a></h3>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-icon">
+              <i class="ri-bank-card-line"></i>
+            </div>
+            <h3><a href="#services">Visiting Cards</a></h3>
+            <span class="hero-card-tag">Matte & Spot UV</span>
           </div>
         </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line"></i>
-            <h3><a href=""> BILL BOOKS </a></h3>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-icon">
+              <i class="ri-file-list-3-line"></i>
+            </div>
+            <h3><a href="#services">Bill Books</a></h3>
+            <span class="hero-card-tag">Carbonless / NCR</span>
           </div>
         </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line"></i>
-            <h3><a href="">LETTER HEADS</a></h3>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-icon">
+              <i class="ri-quill-pen-line"></i>
+            </div>
+            <h3><a href="#services">Letterheads</a></h3>
+            <span class="hero-card-tag">Executive Bond</span>
           </div>
         </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line"></i>
-            <h3><a href=""> BANNER PRINTING </a></h3>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="hero-card">
+            <div class="hero-card-glow"></div>
+            <div class="hero-card-icon">
+              <i class="ri-advertisement-line"></i>
+            </div>
+            <h3><a href="#services">Banner Printing</a></h3>
+            <span class="hero-card-tag">HD Vinyl / Flex</span>
           </div>
         </div>
       </div>
@@ -119,74 +182,146 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3> PP </h3>
-            <p class="fst-italic">
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">WHO WE ARE</span>
+          <h2 class="section-main-title">Crafting Excellence Since <span class="gold-gradient-text">1997</span></h2>
+          <div class="section-title-divider"></div>
+        </div>
 
-            </p> WELCOME TO PERFECT PRINTS
-            <ul>
-              <li><i class="ri-check-double-line"></i> WE DEALS IN ALL KINDS OF PRINTING JOB, VISITING CARDS, LETTER
-                HEAD, BILL BOOKS, CHALLAN BOOK, OFFICE BRANDING, BROUCHER, FLYER, FLEX, ETC...</li>
-              <li><i class="ri-check-double-line"></i> Since 1997 PERFECT PRINTS is a printing company in Mumbai, India.
-                Offering the full range of printing services to variant industrie's clients operating different sectors.
-              </li>
-              <li><i class="ri-check-double-line"></i> We are a one-stop shop for all your printing requirements.</li>
-              <li><i class="ri-check-double-line"></i> Our customised solutions are tailored specifically to your
-                individual needs, ensuring the best results every time
-                throughout the pre-press, printing, finishing and binding process..</li>
-            </ul>
-            <p>
-              At PERFECT PRINTS, we believe in creating value for our customers who are looking for the highest quality
-              of printing in India. Our strong reputation is built on the successful delivery of all assignments, no
-              matter how challenging the brief or how tight the timeframe. From business cards to corporate brochures,
-              we collaborate with the customer to understand their requirements fully and to provide the optimal results
-              using the highest specifications appropriate for their budget.
-              We pride ourselves on professionalism, loyalty and a commitment to upholding the needs of our clients,
-              making
-              PERFECT PRINTS the premier destination for printing in India.
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="about-image-wrapper">
+              <div class="about-image-backdrop"></div>
+              <img src="assets/img/about.jpg" class="img-fluid rounded-4 shadow-lg about-main-img"
+                alt="Perfect Prints Workshop">
+              <div class="experience-floating-badge" data-aos="zoom-in" data-aos-delay="300">
+                <span class="exp-number">26+</span>
+                <span class="exp-text">Years of Trusted Quality</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-left" data-aos-delay="200">
+            <div class="about-header-pill mb-3">
+              <span class="badge-accent">Premier Printing Destination</span>
+            </div>
+            <h3 class="about-heading">Delivering Superior Print Solutions Across Mumbai & Beyond</h3>
+            <p class="about-lead">
+              At <strong>PERFECT PRINTS</strong>, we combine state-of-the-art digital & offset technology with decades
+              of printing mastery to deliver breathtaking results for businesses, corporate brands, and individuals.
             </p>
+
+            <div class="about-features-grid mt-4">
+              <div class="about-feature-item">
+                <div class="about-feature-icon">
+                  <i class="ri-checkbox-circle-fill"></i>
+                </div>
+                <div class="about-feature-text">
+                  <h5>Complete In-House Production</h5>
+                  <p>From pre-press artwork refinement to precision printing, die-cutting, embossing, and luxury
+                    binding.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-icon">
+                  <i class="ri-checkbox-circle-fill"></i>
+                </div>
+                <div class="about-feature-text">
+                  <h5>Bespoke Customization</h5>
+                  <p>Tailored paper stocks, textured finishes, metallic foil stamping, and Spot UV suited to your exact
+                    vision.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-icon">
+                  <i class="ri-checkbox-circle-fill"></i>
+                </div>
+                <div class="about-feature-text">
+                  <h5>Fast Turnaround & Reliability</h5>
+                  <p>Consistent, rigorous quality checks and dependable delivery schedules you can count on every time.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta-row mt-4 pt-2">
+              <a href="#services" class="btn-about-link">
+                <span>Discover Our Complete Range</span>
+                <i class="ri-arrow-right-line ms-1"></i>
+              </a>
+            </div>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-
-    <!-- ======= Features Section ======= -->
+    <!-- ======= Features / Workflow Section ======= -->
     <section id="features" class="features">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
-          <div class="image col-lg-6" style='background-image: url("assets/Delivary.jpg");' data-aos="fade-right"></div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-receipt"></i>
-              <h4>Step 1: Design and Prepress.</h4>
-              <p>Prepare the artwork for printing by adjusting colors, layouts, and adding necessary guidelines or bleed
-                areas.</p>
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">HOW WE WORK</span>
+          <h2 class="section-main-title">Our 4-Step <span class="gold-gradient-text">Precision Workflow</span></h2>
+          <p class="section-description">Ensuring immaculate quality and timely delivery from digital design to final
+            packaging.</p>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="features-showcase-card">
+              <div class="features-img-container" style="background-image: url('assets/Delivary.jpg');">
+                <div class="features-img-overlay">
+                  <div class="delivery-badge">
+                    <i class="ri-truck-line"></i>
+                    <span>Reliable Fast Delivery Across India</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Step 2: Preparing the Printing.</h4>
-              <p>Send the design to a printer, which directly transfers the design onto the printing material using
-                digital technology.</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-images"></i>
-              <h4>Step 3: Printing.</h4>
-              <p>Start the printing process, where the ink is applied to the material either through direct contact or
-                by digital printing technology.</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-shield"></i>
-              <h4>Step 4: Inspection and Packaging.</h4>
-              <p>Inspect & Package the printed items appropriately to protect them during transportation and storage.
-              </p>
-              <h5>Service will be provided within 7 working days.</h5>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="workflow-steps-list">
+
+              <div class="workflow-step-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="step-badge">01</div>
+                <div class="step-content">
+                  <h4>Design & Prepress Alignment</h4>
+                  <p>Artwork preparation, CMYK color calibration, resolution enhancement, bleed parameters, and layout
+                    verification for flawless output.</p>
+                </div>
+              </div>
+
+              <div class="workflow-step-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="step-badge">02</div>
+                <div class="step-content">
+                  <h4>Digital & Offset Plate Setup</h4>
+                  <p>Transferring high-definition digital proofs or laser-etched plates to our high-precision printing
+                    presses with micron accuracy.</p>
+                </div>
+              </div>
+
+              <div class="workflow-step-card" data-aos="fade-up" data-aos-delay="350">
+                <div class="step-badge">03</div>
+                <div class="step-content">
+                  <h4>Master Printing & Finishing</h4>
+                  <p>Application of premium Japanese inks on selected premium media, followed by laminations, foiling,
+                    die-cutting, or embossing.</p>
+                </div>
+              </div>
+
+              <div class="workflow-step-card" data-aos="fade-up" data-aos-delay="450">
+                <div class="step-badge">04</div>
+                <div class="step-content">
+                  <h4>Quality Inspection & Secure Dispatch</h4>
+                  <p>Rigorous manual quality audits, moisture-proof protective packaging, and dispatch within 5 to 7
+                    working days.</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -198,107 +333,258 @@
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">OUR EXPERTISE</span>
+          <h2 class="section-main-title">Comprehensive <span class="gold-gradient-text">Printing Services</span></h2>
+          <p class="section-description">High-end bespoke solutions tailored to corporate, retail, promotional, and
+            personal needs.</p>
+          <div class="section-title-divider"></div>
         </div>
 
-        <div class="row">
+        <div class="row g-4">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><img src=".\assets\Tshirt.jpeg" width="420" height="100"> </div>
-              <h4><a href="">T-SHIRTS</a></h4>
-              <p>"Work like a captain, play like a pirate."</p>
+          <!-- Service 1: Custom Apparel & T-Shirts -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-t-shirt-2-line"></i>
+                </div>
+                <span class="service-tag-pill">Merchandise</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Custom T-Shirts & Apparel</a></h4>
+                <p>Screen printing, DTF, embroidery, and sublimation on premium cotton t-shirts, corporate uniforms,
+                  event tees, and hoodies.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-            data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">BANNER PRINTING</a></h4>
-              <p>"It used primarily for an advertising purpose to publicize the advertiser's products or services."</p>
+          <!-- Service 2: Banner & Large Format Printing -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-image-2-line"></i>
+                </div>
+                <span class="service-tag-pill">Large Format</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">HD Banner & Flex Printing</a></h4>
+                <p>Weatherproof outdoor banners, star flex, roll-up standees, vinyl graphics, backlit boards, and
+                  exhibition backdrop displays.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-            data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">VISITING CARDS</a></h4>
-              <p>" It is also known as business cards. They are small, printed cards that contain essential contact
-                information and professional details."</p>
+          <!-- Service 3: Luxury Visiting Cards -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-contacts-book-2-line"></i>
+                </div>
+                <span class="service-tag-pill">Corporate</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Executive Visiting Cards</a></h4>
+                <p>Bespoke business cards in Velvet Matte, Spot UV, Gold/Silver Hot Foil Stamping, Rounded Corners, and
+                  Textured Kraft stocks.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">WEDDING CARDS</a></h4>
-              <p>"It is a letter asking the recipient to attend a wedding."</p>
+          <!-- Service 4: Wedding Cards -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-heart-3-line"></i>
+                </div>
+                <span class="service-tag-pill">Luxury</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Royal Wedding Invitations</a></h4>
+                <p>Ornate invitation suites, laser-cut folders, metallic foil typography, traditional embossed scrolls,
+                  and modern boxed invites.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">BILL BOOKS</a></h4>
-              <p>"It is your private bill and payment management center. Our service will make files and cartons for
-                bills and invoices unnecessary."</p>
+          <!-- Service 5: Bill Books & Invoices -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-bill-line"></i>
+                </div>
+                <span class="service-tag-pill">Commercial</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Bill Books & Challans</a></h4>
+                <p>Duplicate & Triplicate NCR carbonless bill books, receipt vouchers, order books, and serial-numbered
+                  delivery challans.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">LETTER HEAD</HEAD>
-                  </Head></a></h4>
-              <p>"It is a header at the top of a company letter. The letterhead usually includes a business's logo,
-                name, address, and contact information such as phone or fax number, email address, and company website
-                URL."</p>
+          <!-- Service 6: Letterheads -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="350">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-file-paper-2-line"></i>
+                </div>
+                <span class="service-tag-pill">Stationery</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Corporate Letterheads</a></h4>
+                <p>Crisp, professional letterheads printed on 100gsm DO / Bond paper, watermark textures, and matching
+                  branded envelope sets.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">CATALOGUE</a></h4>
-              <p>"A catalogue is a list or record of items. It commonly refers to a list of things being offered, such
-                as items for sale."</p>
+          <!-- Service 7: Catalogues & Brochures -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-book-open-line"></i>
+                </div>
+                <span class="service-tag-pill">Marketing</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Catalogues & Booklets</a></h4>
+                <p>Multi-page product catalogues, annual reports, lookbooks with saddle-stitch or perfect binding, and
+                  rich vibrant color reproduction.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">FLYER</a></h4>
-              <p>"It is usually a single, unfolded printed sheet that is used to draw attention to an event, service,
-                product or idea. A flyer usually contains a very simple message that can be conveyed quickly."</p>
+          <!-- Service 8: Promotional Flyers -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="450">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-pages-line"></i>
+                </div>
+                <span class="service-tag-pill">Promotional</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">Flyers, Leaflets & Pamphlets</a></h4>
+                <p>Cost-effective mass promotional flyers, bi-fold & tri-fold brochures on glossy or matte art paper
+                  with sharp typography.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">ID CARD</a></h4>
-              <p>"ID card is to verify that the person holding it is indeed who she claims to be."</p>
+          <!-- Service 9: ID Cards & Lanyards -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-premium-card">
+              <div class="card-glow-bg"></div>
+              <div class="service-header-row">
+                <div class="service-icon-box">
+                  <i class="ri-id-card-line"></i>
+                </div>
+                <span class="service-tag-pill">Identity</span>
+              </div>
+              <div class="service-card-body">
+                <h4><a href="#contact">PVC ID Cards & Custom Lanyards</a></h4>
+                <p>Durable PVC staff ID cards, visitor passes, RFID access cards, and customized satin printed lanyards
+                  with metal hooks.</p>
+              </div>
+              <div class="service-card-footer">
+                <a href="#contact" class="service-enquire-btn">
+                  <span>Enquire Pricing</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
             </div>
           </div>
+
         </div>
+
+      </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
+    <!-- ======= Luxury CTA Section ======= -->
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
-        <div class="text-center">
-          <h3>Enthusiasm</h3>
-          <p> Believe in the power of your dreams, fuel your passion with determination, and let your new business
-            venture become a testament to your unstoppable spirit.</p>
-          <p> &emsp; &emsp; &emsp;</p>
+        <div class="cta-inner-box text-center">
+          <div class="cta-sparkle-badge mb-3">
+            <i class="ri-flashlight-line"></i>
+            <span>Transform Your Brand Presence</span>
+          </div>
+          <h3 class="cta-title">Ready to Bring Your Vision to Life with <span class="gold-gradient-text">Impeccable
+              Print Quality?</span></h3>
+          <p class="cta-subtitle">
+            Whether you need bespoke wedding stationery, high-volume corporate marketing materials, or custom
+            merchandise, our master printers are here to make your project extraordinary.
+          </p>
+          <div class="cta-btn-wrapper mt-4">
+            <a class="cta-btn" href="#contact">
+              <span>Start Your Project Today</span>
+              <i class="ri-arrow-right-line ms-2"></i>
+            </a>
+          </div>
         </div>
 
       </div>
@@ -308,169 +594,166 @@
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Check our Portfolio</p>
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">OUR WORK</span>
+          <h2 class="section-main-title">Featured <span class="gold-gradient-text">Portfolio Showcase</span></h2>
+          <p class="section-description">A curated selection of our finest printing commissions and branded collateral.
+          </p>
+          <div class="section-title-divider"></div>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-app">Catlog</li>
-              <li data-filter=".filter-web">T-Shirt</li>
+              <li data-filter="*" class="filter-active">All Projects</li>
+              <li data-filter=".filter-card">Business Cards</li>
+              <li data-filter=".filter-app">Stationery & Books</li>
+              <li data-filter=".filter-web">Apparel & Banners</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+          <!-- Portfolio Item 1 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/Visiting Card.jpg" class="img-fluid" alt="">
+              <img src="assets/Visiting Card.jpg" class="img-fluid" alt="Premium Visiting Card">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>CARD</p>
+                <h4>Executive Visiting Card</h4>
+                <p>Card Design & Foil Print</p>
                 <div class="portfolio-links">
                   <a href="assets/Visiting Card.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="Executive Visiting Card"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <!-- Portfolio Item 2 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/Bill-book2.jpg" class="img-fluid" alt="">
+              <img src="assets/Bill-book2.jpg" class="img-fluid" alt="Custom Bill Book">
               <div class="portfolio-info">
-                <h4>Bill-Book 1</h4>
-                <p>Bill-Book</p>
+                <h4>Custom NCR Bill Book</h4>
+                <p>Commercial Invoicing</p>
                 <div class="portfolio-links">
                   <a href="assets/Bill-book2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="NCR Bill Book"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Portfolio Item 3 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/Letterhead Mockup.jpg" class="img-fluid" alt="">
+              <img src="assets/Letterhead Mockup.jpg" class="img-fluid" alt="Letterhead Mockup">
               <div class="portfolio-info">
-                <h4>Letterhead 1</h4>
-                <p>Letterhead</p>
+                <h4>Corporate Letterhead</h4>
+                <p>Executive Brand Stationery</p>
                 <div class="portfolio-links">
                   <a href="assets/Letterhead Mockup.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="Corporate Letterhead"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Portfolio Item 4 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/Catlog.jpg" class="img-fluid" alt="">
+              <img src="assets/Catlog.jpg" class="img-fluid" alt="Catalogue Design">
               <div class="portfolio-info">
-                <h4>Catlog 1</h4>
-                <p>Catlog</p>
+                <h4>Product Catalogue</h4>
+                <p>Multi-page Brochure Print</p>
                 <div class="portfolio-links">
                   <a href="assets/Catlog.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="Product Catalogue"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Portfolio Item 5 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/Wedding card.jpg" class="img-fluid" alt="">
+              <img src="assets/Wedding card.jpg" class="img-fluid" alt="Wedding Card">
               <div class="portfolio-info">
-                <h4>Wedding-card 1</h4>
-                <p>Wedding-card</p>
+                <h4>Royal Wedding Invitation</h4>
+                <p>Bespoke Gold Foil Suite</p>
                 <div class="portfolio-links">
                   <a href="assets/Wedding card.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="Royal Wedding Card"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/banner 2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Banner 1</h4>
-                <p>BANNER</p>
-                <div class="portfolio-links">
-                  <a href="assets/banner 2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/BillBook.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Bill-Book 2</h4>
-                <p>BillBook</p>
-                <div class="portfolio-links">
-                  <a href="assets/BillBook.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/VisitingCard2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/VisitingCard2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/Banner 3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Banner 2</h4>
-                <p>BANNER</p>
-                <div class="portfolio-links">
-                  <a href="assets/Banner 3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          <!-- Portfolio Item 6 -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/T-shirts 1.jpg" class="img-fluid" alt="">
+              <img src="assets/banner 2.jpg" class="img-fluid" alt="Banner Design">
               <div class="portfolio-info">
-                <h4>T-shirt 1</h4>
-                <p>T-shirt</p>
+                <h4>High-Impact Vinyl Banner</h4>
+                <p>Outdoor Brand Display</p>
+                <div class="portfolio-links">
+                  <a href="assets/banner 2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Vinyl Banner"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 7 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/BillBook.jpg" class="img-fluid" alt="Bill Book 2">
+              <div class="portfolio-info">
+                <h4>Custom Order Books</h4>
+                <p>Serialized Receipts</p>
+                <div class="portfolio-links">
+                  <a href="assets/BillBook.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Order Book"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 8 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/VisitingCard2.jpg" class="img-fluid" alt="Spot UV Card">
+              <div class="portfolio-info">
+                <h4>Spot UV Business Card</h4>
+                <p>Matte Finish with Gloss Accent</p>
+                <div class="portfolio-links">
+                  <a href="assets/VisitingCard2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Spot UV Card"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 9 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/T-shirts 1.jpg" class="img-fluid" alt="Custom T-Shirts">
+              <div class="portfolio-info">
+                <h4>Custom Screen Printed T-Shirts</h4>
+                <p>Merchandise & Team Apparel</p>
                 <div class="portfolio-links">
                   <a href="assets/T-shirts 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    title="Custom T-Shirts"><i class="bx bx-zoom-in"></i></a>
+                  <a href="#contact" title="Order Similar"><i class="bx bx-link-external"></i></a>
                 </div>
               </div>
             </div>
@@ -481,78 +764,91 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Counts Section ======= -->
+    <!-- ======= Counts / Metrics Section ======= -->
     <section id="counts" class="counts">
-
       <div class="container" data-aos="fade-up">
 
-        <div class="row no-gutters">
-          <div
-            class="image col-12 col-md-6 col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"
-            data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/FeedBack-Photo.jpg" width="100%">
-          </div>
-          <div class="col-12 col-md-6 col-lg-8 ps-3 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left"
-            data-aos-delay="100">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3>The Feedback Forge</h3>
-              <p>
-                At PERFECT PRINTS, our primary focus is to provide our customers with the highest level of service
-                possible. We strive to exceed your expectations by consistently delivering quality products/services
-                that meet your specific needs.
-              </p>
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2"
-                      class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> Over the years, we have had the privilege of serving numerous
-                      clients who have entrusted us with their needs. Their positive feedback, testimonials, and
-                      continued loyalty serve as a testament to the quality of our service.</p>
-                  </div>
-                </div>
-
-
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="26" data-purecounter-duration="4"
-                      class="purecounter"></span>
-                    <p><strong>Years of experience</strong> have equipped us with the knowledge and expertise to
-                      consistently deliver exceptional service and meet the evolving needs of our valued customers.</p>
-                  </div>
-                </div>
+        <div class="counts-card-wrapper">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+              <div class="counts-img-container">
+                <img src="assets/FeedBack-Photo.jpg" class="img-fluid rounded-4 shadow-sm" alt="Customer Satisfaction">
               </div>
-            </div><!-- End .content-->
+            </div>
+            <div class="col-lg-8 ps-lg-4" data-aos="fade-left" data-aos-delay="150">
+              <div class="counts-content">
+                <span class="badge-accent mb-2">PROVEN TRACK RECORD</span>
+                <h3 class="counts-main-heading">Crafting Trust Through Flawless Quality</h3>
+                <p class="counts-subtext">
+                  Since 1997, Perfect Prints has been the trusted print partner for businesses across Mumbai and
+                  throughout India. Our unwavering commitment to precision, color accuracy, and timely execution ensures
+                  our clients always stand out.
+                </p>
+
+                <div class="row g-4 mt-2">
+                  <div class="col-md-6">
+                    <div class="metric-card">
+                      <div class="metric-icon">
+                        <i class="ri-user-smile-line"></i>
+                      </div>
+                      <div class="metric-body">
+                        <div class="d-flex align-items-baseline">
+                          <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="2"
+                            class="purecounter metric-num"></span>
+                          <span class="metric-plus">+</span>
+                        </div>
+                        <span class="metric-label">Happy Corporate & Retail Clients</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="metric-card">
+                      <div class="metric-icon">
+                        <i class="ri-history-line"></i>
+                      </div>
+                      <div class="metric-body">
+                        <div class="d-flex align-items-baseline">
+                          <span data-purecounter-start="0" data-purecounter-end="26" data-purecounter-duration="2"
+                            class="purecounter metric-num"></span>
+                          <span class="metric-plus">+</span>
+                        </div>
+                        <span class="metric-label">Years of Industry Leadership</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials / Philosophy Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
 
-
-
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-
-            <h3>Empowerment</h3>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Remember, the greatest achievements are often born from the boldest ideas. Dare to dream big, believe in
-              yourself, and let your new business become a testament to the power of audacity.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+        <div class="testimonial-card-single text-center mx-auto">
+          <div class="quote-sparkle-icon mb-3">
+            <i class="ri-double-quotes-l"></i>
           </div>
-        </div><!-- End testimonial item -->
-
-
-
+          <div class="star-rating mb-3">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+          </div>
+          <p class="testimonial-quote">
+            "Your brand's first impression is held in the hands of your customer. Dare to create tangible collateral
+            that commands respect, communicates quality, and leaves an indelible mark of excellence."
+          </p>
+          <h4 class="testimonial-author">The Perfect Prints Philosophy</h4>
+          <span class="testimonial-role">Master Printers & Brand Craftsmen</span>
+        </div>
 
       </div>
     </section><!-- End Testimonials Section -->
@@ -561,73 +857,124 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+        <div class="section-header text-center mb-5">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-main-title">Let's Discuss Your <span class="gold-gradient-text">Printing Project</span>
+          </h2>
+          <p class="section-description">Reach out today for bespoke quotes, sample inquiries, or quick consultations.
+          </p>
+          <div class="section-title-divider"></div>
         </div>
 
-        <div>
-          <a
-            href="https://www.google.com/maps/place/Rajhans+Kshitij+-+IRIS/@19.3749474,72.8187761,16z/data=!4m15!1m8!3m7!1s0x3be7ae90f2aa7fed:0xe5c4bd3ca5122b9a!2sSuyog+Nagar,+Vasai+West,+Vasai-Virar,+Maharashtra+401202!3b1!8m2!3d19.3667296!4d72.819814!16s%2Fg%2F1tmxv1cc!3m5!1s0x3be7ae9716ec0eef:0xd5b0879a5f02c9ab!8m2!3d19.3742602!4d72.8180557!16s%2Fg%2F11c48bnjq6?entry=ttu">
-            <img style="border:0; width: 50%; height: 100%;" src="assets/img/map.png" frameborder="0"
-              allowfullscreen></img>
-          </a>
-        </div>
+        <div class="row g-4">
 
-        <div class="row mt-5">
+          <!-- Left Info Cards -->
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="contact-info-wrapper">
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p> Suyog nagar, Near Bhabola Road, Vasai Road West</p>
+              <div class="contact-info-card">
+                <div class="contact-icon">
+                  <i class="ri-map-pin-2-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Workshop & Office:</h4>
+                  <p>Vasai Road West, Mumbai, Maharashtra 401202</p>
+                </div>
               </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>zuzerhk@redffimail.com</p>
+              <div class="contact-info-card">
+                <div class="contact-icon">
+                  <i class="ri-mail-send-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email Us:</h4>
+                  <p><a href="mailto:zuzerhk@rediffmail.com">zuzerhk@rediffmail.com</a></p>
+                </div>
               </div>
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 7977501641</p>
-                <p>+91 8007321268</p>
-                <p>+91 7507642259</p>
+              <div class="contact-info-card">
+                <div class="contact-icon">
+                  <i class="ri-phone-line"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Call / WhatsApp:</h4>
+                  <p><a href="tel:+917977501641">+91 7977501641</a></p>
+                  <p><a href="tel:+918007321268">+91 8007321268</a></p>
+                  <p><a href="tel:+917507642259">+91 7507642259</a></p>
+                </div>
+              </div>
+
+              <div class="contact-map-preview mt-4">
+                <a href="https://maps.google.com/?q=Suyog+Nagar+Vasai+West+Maharashtra" target="_blank" rel="noopener"
+                  class="map-link-card">
+                  <img src="assets/img/map.png" alt="Google Map Location" class="img-fluid rounded-3">
+                  <div class="map-overlay">
+                    <span><i class="ri-direction-line me-1"></i> Open in Google Maps</span>
+                  </div>
+                </a>
               </div>
 
             </div>
-
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <!-- Right Contact Form -->
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="contact-form-card">
+              <h3 class="form-title mb-4">Send a Direct Message</h3>
 
-            <form action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
-              <input type="hidden" name="access_key" value="a932f263-b05f-4c33-bafd-260fc2adc51f">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+              <form action="https://api.web3forms.com/submit" method="POST" role="form" class="php-email-form">
+                <input type="hidden" name="access_key" value="a932f263-b05f-4c33-bafd-260fc2adc51f">
 
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label-custom">Your Full Name</label>
+                    <div class="input-with-icon">
+                      <i class="ri-user-line"></i>
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Rohit Sharma" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label-custom">Your Email Address</label>
+                    <div class="input-with-icon">
+                      <i class="ri-mail-line"></i>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="rohit@example.com"
+                        required>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <label class="form-label-custom">Subject / Printing Service Required</label>
+                  <div class="input-with-icon">
+                    <i class="ri-bookmark-line"></i>
+                    <input type="text" class="form-control" name="subject" id="subject"
+                      placeholder="e.g. Visiting Cards & Letterheads Quote" required>
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <label class="form-label-custom">Project Details & Quantity</label>
+                  <textarea class="form-control" name="message" rows="5"
+                    placeholder="Tell us about paper requirements, dimensions, quantity, or deadline..."
+                    required></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Submitting your request...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent successfully. We will get back to you shortly!
+                  </div>
+                </div>
+
+                <div class="text-start mt-4">
+                  <button type="submit" class="btn-send-message">
+                    <span>Send Message</span>
+                    <i class="ri-send-plane-fill ms-2"></i>
+                  </button>
+                </div>
+              </form>
+
+            </div>
           </div>
 
         </div>
@@ -641,87 +988,93 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="row">
+        <div class="row g-4">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>PP<span>.</span></h3>
-              <p>
-                Syuog nagar, Bhabola Naka ,
-                Vasai Road West<br>
-
-                <strong>Phone:</strong> +91 7977501641<br>
-                </strong> &emsp; &emsp; &ensp; &nbsp;+91 8007321268 <br>
-                </strong> &emsp; &emsp; &ensp; &nbsp;+91 7507642259 <br>
-
-
-
-                <strong>Email:</strong> zuzerhk@redffimail.com <br>
+              <div class="footer-logo mb-3">
+                <a href="index.html" class="d-flex align-items-center text-white">
+                  <img src="assets/PPLogo.png" alt="PP Logo" class="me-2" style="height: 38px;">
+                  <span class="fs-4 fw-bold">PP<span class="logo-dot">.</span></span>
+                </a>
+              </div>
+              <p class="footer-about-text">
+                Premier printing house based in Mumbai, delivering precision offset & digital printing solutions,
+                corporate branding, bespoke wedding stationery, and promotional merchandise since 1997.
               </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <div class="social-links mt-4">
+                <a href="https://wa.me/917977501641" target="_blank" rel="noopener" class="whatsapp" title="WhatsApp"><i
+                    class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="facebook" title="Facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/taher-kachwala-321a30260/" target="_blank" rel="noopener"
+                  class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Quick Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#features">Process</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Key Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">logo Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">T-shirts Printing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Visiting Cards</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Royal Wedding Cards</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Bill Books & Challans</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Corporate Letterheads</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Custom T-Shirts</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Vinyl & Flex Banners</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>&emsp;</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Bag Printing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pen Printing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">1</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">2</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">3</a></li>
-            </ul>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Direct Contact</h4>
+            <div class="footer-contact-details">
+              <p><i class="ri-map-pin-line me-2 text-warning"></i> Vasai West, Mumbai, Maharashtra</p>
+              <p><i class="ri-phone-line me-2 text-warning"></i> +91 7977501641</p>
+              <p><i class="ri-phone-line me-2 text-warning"></i> +91 8007321268</p>
+              <p><i class="ri-mail-line me-2 text-warning"></i> zuzerhk@rediffmail.com</p>
+            </div>
           </div>
 
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container footer-bottom-container">
       <div class="copyright">
-        &copy; Copyright <strong><span>PP</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Perfect Prints</span></strong>. All Rights Reserved.
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://www.linkedin.com/in/taher-kachwala-321a30260/">Taher Kachwala</a>
+        Designed & Developed by <a href="https://www.linkedin.com/in/taher-kachwala-321a30260/" target="_blank"
+          rel="noopener">Taher Kachwala</a>
       </div>
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
+  <!-- Floating Quick WhatsApp Action Button -->
+  <a href="https://wa.me/917977501641?text=Hi%20Perfect%20Prints%2C%20I%20would%20like%20to%20inquire%20about%20printing%20services"
+    target="_blank" rel="noopener" class="floating-whatsapp-btn" title="Chat with us on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+    <span class="whatsapp-label">Quick Inquiry</span>
+  </a>
+
+  <!-- Back to Top Button -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -732,7 +1085,8 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="https://web3forms.com/client/script.js" async defer></script>
-  <!-- Template Main JS File -->
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
